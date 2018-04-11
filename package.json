@@ -1,0 +1,22 @@
+{
+  "name": "headlines",
+  "version": "1.0.0",
+  "description": "This app uses the newsAPI.org API to access various news networks and get their latest popular headlines. Enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack -p build/main.min.js",
+    "start": "http-server -c-1 -p 8081"
+  },
+  "repository": {
+    "type": "git"
+    
+  },
+  "author": "Samson Lasode",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "webpack": "^3.0.0",
+    "http-server":"^0.10.0"
+  }
+}
